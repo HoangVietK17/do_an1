@@ -4,254 +4,28 @@
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>103</LINE>
+      <LINE>97</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'temp', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>getinform</FUNCTION>
+    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+      <FILENAME>1712906.cpp</FILENAME>
+      <LINE>105</LINE>
       <COLUMN>13</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '2' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>104</LINE>
-      <COLUMN>13</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '3' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>108</LINE>
-      <COLUMN>29</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '4' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>110</LINE>
-      <COLUMN>17</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '5' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>112</LINE>
-      <COLUMN>13</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '6' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>113</LINE>
-      <COLUMN>13</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '7' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>114</LINE>
-      <COLUMN>13</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '8' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>115</LINE>
-      <COLUMN>13</COLUMN>
-    </SFA>
-    <DEFECTCODE>6200</DEFECTCODE>
-    <DESCRIPTION>Index '9' is out of valid index range '0' to '1' for non-stack buffer 'temp'.</DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>101</LINE>
-      <COLUMN>6</COLUMN>
-    </SFA>
-    <DEFECTCODE>6011</DEFECTCODE>
-    <DESCRIPTION>Dereferencing NULL pointer 'temp'. </DESCRIPTION>
-    <FUNCTION>getinform</FUNCTION>
-    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
-    <PROBABILITY>1</PROBABILITY>
-    <RANK>4</RANK>
-    <CATEGORY>
-      <RULECATEGORY>mspft</RULECATEGORY>
-    </CATEGORY>
-    <PATH>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>62</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>63</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>64</LINE>
-        <COLUMN>9</COLUMN>
-        <KEYEVENT>
-          <ID>1</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>'temp' may be NULL</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>65</LINE>
-        <COLUMN>10</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>66</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
-        <COLUMN>10</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
-        <COLUMN>19</COLUMN>
-        <KEYEVENT>
-          <ID>2</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Enter this loop, (assume 'i&lt;=wcslen(a)')</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>70</LINE>
-        <COLUMN>11</COLUMN>
-        <KEYEVENT>
-          <ID>3</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Skip this branch, (assume 'a[i]==34' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
-        <COLUMN>34</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
-        <COLUMN>19</COLUMN>
-        <KEYEVENT>
-          <ID>4</ID>
-          <KIND>branch</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>Exit this loop, ('i&lt;=wcslen(a)' is false)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>86</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>87</LINE>
-        <COLUMN>10</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>101</LINE>
-        <COLUMN>6</COLUMN>
-        <KEYEVENT>
-          <ID>5</ID>
-          <KIND>usage</KIND>
-          <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>'temp' is dereferenced, but may still be NULL</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-    </PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
-      <LINE>101</LINE>
-      <COLUMN>6</COLUMN>
     </SFA>
     <DEFECTCODE>6011</DEFECTCODE>
     <DESCRIPTION>Dereferencing NULL pointer 'sv'. </DESCRIPTION>
     <FUNCTION>getinform</FUNCTION>
     <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
+    <FUNCLINE>61</FUNCLINE>
     <PROBABILITY>1</PROBABILITY>
     <RANK>4</RANK>
     <CATEGORY>
@@ -261,13 +35,13 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>62</LINE>
+        <LINE>63</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>63</LINE>
+        <LINE>64</LINE>
         <COLUMN>9</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -279,31 +53,31 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>64</LINE>
+        <LINE>65</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>65</LINE>
+        <LINE>66</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>66</LINE>
+        <LINE>67</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>69</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>69</LINE>
         <COLUMN>19</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -315,7 +89,7 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>70</LINE>
+        <LINE>71</LINE>
         <COLUMN>11</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -327,13 +101,13 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>69</LINE>
         <COLUMN>34</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>69</LINE>
         <COLUMN>19</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
@@ -345,13 +119,13 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>86</LINE>
+        <LINE>87</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>87</LINE>
+        <LINE>88</LINE>
         <COLUMN>10</COLUMN>
         <KEYEVENT>
           <ID>5</ID>
@@ -364,7 +138,37 @@
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>101</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>13</COLUMN>
         <KEYEVENT>
           <ID>6</ID>
           <KIND>usage</KIND>
@@ -378,14 +182,166 @@
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>103</LINE>
-      <COLUMN>6</COLUMN>
+      <LINE>92</LINE>
+      <COLUMN>14</COLUMN>
     </SFA>
-    <DEFECTCODE>6385</DEFECTCODE>
-    <DESCRIPTION>Reading invalid data from 'temp':  the readable size is '18' bytes, but '24' bytes may be read.</DESCRIPTION>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'temp' contains the same NULL value as 'realloc()`97' did. </DESCRIPTION>
     <FUNCTION>getinform</FUNCTION>
     <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
-    <FUNCLINE>60</FUNCLINE>
+    <FUNCLINE>61</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>93</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>95</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'p!=0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+      <FILENAME>1712906.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'temp':  the readable size is '8' bytes, but '16' bytes may be read.</DESCRIPTION>
+    <FUNCTION>getinform</FUNCTION>
+    <DECORATED>?getinform@@YAPEAUSinhVien@@QEA_W@Z</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
     <PROBABILITY>1</PROBABILITY>
     <RANK>4</RANK>
     <CATEGORY>
@@ -395,49 +351,49 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>62</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
         <LINE>63</LINE>
-        <COLUMN>9</COLUMN>
+        <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>64</LINE>
         <COLUMN>9</COLUMN>
-        <KEYEVENT>
-          <ID>1</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>'temp' is an array of 2 elements (18 bytes)</MESSAGE>
-        </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>65</LINE>
-        <COLUMN>10</COLUMN>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'temp' is an array of 1 elements (8 bytes)</MESSAGE>
+        </KEYEVENT>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>66</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>67</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>69</LINE>
         <COLUMN>19</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -449,7 +405,7 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>70</LINE>
+        <LINE>71</LINE>
         <COLUMN>11</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -461,13 +417,13 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>69</LINE>
         <COLUMN>34</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>68</LINE>
+        <LINE>69</LINE>
         <COLUMN>19</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
@@ -479,37 +435,73 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>86</LINE>
+        <LINE>87</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>87</LINE>
+        <LINE>88</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'p!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>101</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>101</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>102</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>19</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>103</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>9</COLUMN>
         <KEYEVENT>
-          <ID>5</ID>
+          <ID>6</ID>
           <KIND>usage</KIND>
           <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>Invalid read from 'temp[2]', (readable range is 0 to 1)</MESSAGE>
+          <MESSAGE>Invalid read from 'temp[1]', (readable range is 0 to 0)</MESSAGE>
         </KEYEVENT>
       </SFA>
     </PATH>
@@ -518,28 +510,49 @@
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>133</LINE>
+      <LINE>123</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'n' hides previous declaration at line '9' of 'c:\users\hoangviet\desktop\do_an1\1712906\1712906\1712906.cpp'.</DESCRIPTION>
+    <FUNCTION>TaoMang</FUNCTION>
+    <DECORATED>?TaoMang@@YAPEAPEA_WPEAU_iobuf@@AEAH@Z</DECORATED>
+    <FUNCLINE>123</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+      <FILENAME>1712906.cpp</FILENAME>
+      <LINE>135</LINE>
       <COLUMN>25</COLUMN>
     </SFA>
     <DEFECTCODE>6308</DEFECTCODE>
     <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'a', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
     <FUNCTION>TaoMang</FUNCTION>
     <DECORATED>?TaoMang@@YAPEAPEA_WPEAU_iobuf@@AEAH@Z</DECORATED>
-    <FUNCLINE>121</FUNCLINE>
+    <FUNCLINE>123</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>128</LINE>
+      <LINE>130</LINE>
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>28182</DEFECTCODE>
-    <DESCRIPTION>Dereferencing NULL pointer. 'a' contains the same NULL value as 'realloc()`133' did. </DESCRIPTION>
+    <DESCRIPTION>Dereferencing NULL pointer. 'a' contains the same NULL value as 'realloc()`135' did. </DESCRIPTION>
     <FUNCTION>TaoMang</FUNCTION>
     <DECORATED>?TaoMang@@YAPEAPEA_WPEAU_iobuf@@AEAH@Z</DECORATED>
-    <FUNCLINE>121</FUNCLINE>
+    <FUNCLINE>123</FUNCLINE>
     <PROBABILITY>1</PROBABILITY>
     <RANK>3</RANK>
     <CATEGORY>
@@ -549,49 +562,49 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>123</LINE>
+        <LINE>125</LINE>
         <COLUMN>3</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>125</LINE>
+        <LINE>127</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>126</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
         <LINE>128</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-        <FILENAME>1712906.cpp</FILENAME>
-        <LINE>129</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>130</LINE>
-        <COLUMN>6</COLUMN>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
         <LINE>132</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+        <FILENAME>1712906.cpp</FILENAME>
+        <LINE>134</LINE>
         <COLUMN>4</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>133</LINE>
+        <LINE>135</LINE>
         <COLUMN>5</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -603,7 +616,7 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>126</LINE>
+        <LINE>128</LINE>
         <COLUMN>8</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -615,7 +628,7 @@
       <SFA>
         <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
         <FILENAME>1712906.cpp</FILENAME>
-        <LINE>128</LINE>
+        <LINE>130</LINE>
         <COLUMN>7</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -630,20 +643,6 @@
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>151</LINE>
-      <COLUMN>9</COLUMN>
-    </SFA>
-    <DEFECTCODE>6031</DEFECTCODE>
-    <DESCRIPTION>Return value ignored: '_setmode'.</DESCRIPTION>
-    <FUNCTION>inrahtml</FUNCTION>
-    <DECORATED>?inrahtml@@YAXQEA_W@Z</DECORATED>
-    <FUNCLINE>140</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
-      <FILENAME>1712906.cpp</FILENAME>
       <LINE>152</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
@@ -651,21 +650,21 @@
     <DESCRIPTION>Return value ignored: '_setmode'.</DESCRIPTION>
     <FUNCTION>inrahtml</FUNCTION>
     <DECORATED>?inrahtml@@YAXQEA_W@Z</DECORATED>
-    <FUNCLINE>140</FUNCLINE>
+    <FUNCLINE>142</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>156</LINE>
+      <LINE>153</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: '_setmode'.</DESCRIPTION>
     <FUNCTION>inrahtml</FUNCTION>
     <DECORATED>?inrahtml@@YAXQEA_W@Z</DECORATED>
-    <FUNCLINE>140</FUNCLINE>
+    <FUNCLINE>142</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
@@ -679,21 +678,35 @@
     <DESCRIPTION>Return value ignored: '_setmode'.</DESCRIPTION>
     <FUNCTION>inrahtml</FUNCTION>
     <DECORATED>?inrahtml@@YAXQEA_W@Z</DECORATED>
-    <FUNCLINE>140</FUNCLINE>
+    <FUNCLINE>142</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
       <FILENAME>1712906.cpp</FILENAME>
-      <LINE>320</LINE>
-      <COLUMN>6</COLUMN>
+      <LINE>158</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: '_setmode'.</DESCRIPTION>
+    <FUNCTION>inrahtml</FUNCTION>
+    <DECORATED>?inrahtml@@YAXQEA_W@Z</DECORATED>
+    <FUNCLINE>142</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hoangviet\desktop\do_an1\1712906\1712906\</FILEPATH>
+      <FILENAME>1712906.cpp</FILENAME>
+      <LINE>265</LINE>
+      <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'getch'.</DESCRIPTION>
     <FUNCTION>main</FUNCTION>
     <DECORATED>main</DECORATED>
-    <FUNCLINE>309</FUNCLINE>
+    <FUNCLINE>249</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>
