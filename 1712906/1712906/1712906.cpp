@@ -44,8 +44,15 @@ struct SinhVien
 //	//int 1212123,Nguy?n V?n A,Công nghê thông tin,1212123@gmail.com,2012, 20/01/1994 ,1212123.jpg,D? th??ng,Âm nh?c: Kpop; Vpop,?i?n ?nh: Harry Potter
 
 // chuyển dữ liệu
+void deletesv(SinhVien *&sv)
+{
+	 free(sv->MSSV);
+	free(sv);
+
+}
 void trans(wchar_t *b)
 {
+
 	if (!b) return;
 	for (int i = 0; i <= wcslen(b); i++)
 	{
@@ -239,12 +246,11 @@ void inrahtml(wchar_t a[])
 	}
 	fclose(fout);
 	fclose(fin);
-	 
-	free(sv);// delete tung mang con 
+	deletesv(sv);	// delete tung mang con 
 	free(b);// delete hang doc dong
  
 }
- 
+
 void main()
 {
 	wchar_t * name = L"test2.csv";
@@ -253,14 +259,9 @@ void main()
 	wchar_t **a = TaoMang(fcsv, n);
 	fclose(fcsv);
 	for (i = 0; i <= n; i++)
-
 	{
 		inrahtml(a[i]);
-	}
-
-	 
-	 
-	 
+	}			
 	free(a);// delete con tro sau khi delete het mang con
 	 getch();
 }
