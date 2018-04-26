@@ -1,3 +1,5 @@
 ﻿  1712906.cpp
-d:\do an 1\1712906\1712906\1712906.cpp(31): warning C4018: '<=': signed/unsigned mismatch
-LINK : fatal error LNK1104: cannot open file 'D:\Do an 1\1712906\Debug\1712906.exe'
+c:\users\hoangviet\desktop\do_an1\1712906\1712906\1712906.cpp(57): warning C4018: '<=': signed/unsigned mismatch
+c:\users\hoangviet\desktop\do_an1\1712906\1712906\1712906.cpp(76): warning C4018: '<=': signed/unsigned mismatch
+  1712906.vcxproj -> C:\Users\HoangViet\Desktop\do_an1\1712906\Debug\1712906.exe
+  1712906.vcxproj -> C:\Users\HoangViet\Desktop\do_an1\1712906\Debug\1712906.pdb (Partial PDB)

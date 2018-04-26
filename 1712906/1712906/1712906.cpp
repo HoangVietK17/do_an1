@@ -6,8 +6,8 @@
 #include<string.h>
 #include<stdlib.h>
 #include<wchar.h>
+#pragma warning ( disable:4996 ) // Disable loi tu visual 2013
 int n;
- 
 using namespace std;
 //1212123, Nguyễn Văn A, Công nghê thông tin, 1212123@gmail.com, 2012, 20 / 01 / 1992., 1212123.jpg, Dễ thương, Âm nhạc : Kpop; Vpop, Điện ảnh : Harry Potter
 // KEY KHI THAY DOI TEMPLATE THAY DOI Tim VI Tri TEN DEMO
@@ -24,9 +24,7 @@ wchar_t* mau9 =L"Email: nva@gmail.com";
 wchar_t* mau10 = L"Âm nhạc: POP, Balad";
 wchar_t* mau11 = L"Ẩm thực: bún riêu, bún thịt nướng";
 wchar_t* mau12 = L"Tôi là một người rất thân thiện.";
-#pragma warning ( disable:4996 ) // Disable loi tu visual 2013
 // Struct
-
 struct SinhVien
 {
 	wchar_t* MSSV ;
@@ -41,8 +39,18 @@ struct SinhVien
 	int soluong;
  
 };
-//	//int 1212123,Nguy?n V?n A,Công nghê thông tin,1212123@gmail.com,2012, 20/01/1994 ,1212123.jpg,D? th??ng,Âm nh?c: Kpop; Vpop,?i?n ?nh: Harry Potter
-
+struct Luachon
+{
+	int MSSV;
+	int Ten;
+	int Khoa;
+	int Email;
+	int Namvaohoc;
+	int Day;
+	int Hinhanh;
+	int  Motabanthan;
+	int Sothich;
+};
 // chuyển dữ liệu
 void deletesv(SinhVien *&sv)
 {
@@ -52,7 +60,6 @@ void deletesv(SinhVien *&sv)
 }
 void trans(wchar_t *b)
 {
-
 	if (!b) return;
 	for (int i = 0; i <= wcslen(b); i++)
 	{
@@ -60,13 +67,11 @@ void trans(wchar_t *b)
 		{
 			b[i] = L',';
 		}
-		 
-
 	}
 }
  
-SinhVien* getinform(wchar_t a[])
-{
+SinhVien* getinform(wchar_t *a)
+{ 
 	int index = 0;
 	SinhVien* sv = (SinhVien*)malloc(sizeof(SinhVien));
 	wchar_t **temp = (wchar_t **)malloc( sizeof(wchar_t*)); 
@@ -148,10 +153,71 @@ wchar_t **TaoMang(FILE *f, int &n)
 	}
 	return a;
 }
-void inrahtml(wchar_t a[])
+void chonlua(Luachon &luachon)
 {
+	do
+	{
+		wprintf(L"In tên: ");
+		scanf("%d", &luachon.Ten);
+	} while (luachon.Ten != 1 && luachon.Ten != 2);
+	do
+	{
+		wprintf(L"In MSSV: ");
+		scanf("%d", &luachon.MSSV);
+	} while (luachon.MSSV != 1 && luachon.MSSV != 2);
+	do
+	{
+		wprintf(L"In Khoa: ");
+		scanf("%d", &luachon.Khoa);
+	} while (luachon.Khoa != 1 && luachon.Khoa != 2);
+	do
+	{
+		wprintf(L"In Email: ");
+		scanf("%d", &luachon.Email);
+	} while (luachon.Email != 1 && luachon.Email != 2);
+	do
+	{
+		wprintf(L"In Năm Sinh: ");
+		scanf("%d", &luachon.Day);
+	} while (luachon.Day != 1 && luachon.Day != 2);
+	do
+	{
+		wprintf(L"In Ảnh Đại Diện : ");
+		scanf("%d", &luachon.Hinhanh);
+	} while (luachon.Hinhanh != 1 && luachon.Hinhanh != 2);
+	do
+	{
+		wprintf(L"In Mô tả: ");
+		scanf("%d", &luachon.Motabanthan);
+	} while (luachon.Motabanthan != 1 && luachon.Motabanthan != 2);
+	do
+	{
+		wprintf(L"In Sở Thích: ");
+		scanf("%d", &luachon.Sothich);
+	} while (luachon.Sothich != 1 && luachon.Sothich != 2);
+}
+void xuatinfor(SinhVien *sv)
+{
+	//1212123, Nguy ? n V ? n A, Công nghê thông tin, 1212123@gmail.com, 2012, 20 / 01 / 1994, 1212123.jpg, D ? th ? ? ng, Âm nh ? c : Kpop; Vpop, ? i ? n ? nh : Harry Potter
+	wprintf(L"\n\nTHÔNG TIN: \n");
+	wprintf(L"MSSV: %ls\n", sv->MSSV);
+	wprintf(L"Tên: %ls\n", sv->Ten);
+	wprintf(L"Khoa: %ls\n", sv->Khoa);
+	wprintf(L"Ảnh đại diện: %ls\n", sv->Hinhanh);
+	wprintf(L"Email: %ls\n", sv->Email);
+	wprintf(L"Ngày Sinh: %ls\n", sv->Day);
+	wprintf(L"Mô Tả: %ls\n", sv->Ten);
+	wprintf(L"Sở Thích: %ls\n", sv->Ten);
+	for (int i = 0; i < sv->soluong; i++)
+	{
+		wprintf(L"* %ls\n", sv->Sothich[i]);
+	}
+	wprintf(L"  END.\n\n");
 
-	bool flag = true;
+}
+void inrahtml(wchar_t *a)
+{
+	int flag = 1;
 	wchar_t * pwc;
 	SinhVien *sv = getinform(a);
 	wchar_t filename[60];
@@ -161,7 +227,10 @@ void inrahtml(wchar_t a[])
 	_setmode(_fileno(fin), _O_U8TEXT);
 	_setmode(_fileno(stdout), _O_U8TEXT);
 	wchar_t *b = (wchar_t *)malloc(1000 * sizeof(wchar_t));
-
+	xuatinfor(sv);
+	Luachon luachon;
+	chonlua(luachon);
+	
 	FILE* fout = _wfopen(filename, L"w, ccs=UTF-8");
 	_setmode(_fileno(fout), _O_U8TEXT);
 	_setmode(_fileno(stdout), _O_U8TEXT); //needed for output
@@ -171,77 +240,163 @@ void inrahtml(wchar_t a[])
 		fgetws(b, 1000, fin);
 		if (pwc = wcsstr(b, mau))
 		{
+			
+			if (luachon.Ten == 1)
+			{
 			fwprintf(fout, L"		<title>HCMUS - %ls</title>\n", sv->Ten);
-			wprintf(L"		<title>HCMUS - %ls</title>\n", sv->Ten);
+			}
+			else
+			{
+				fwprintf(fout, L"		<title>HCMUS - No Information</title>\n");
+			}
+			
 		}
 		else if ((pwc = wcsstr(b, mau1)))
 		{
-			fwprintf(fout, L"						<span class=\"Personal_FullName\">%ls - %ls</span>\n", sv->Ten, sv->MSSV);
-			wprintf(L"						<span class=\"Personal_FullName\">%ls - %ls</span>\n", sv->Ten, sv->MSSV);
+			if (luachon.Ten == 1 && luachon.MSSV == 1)
+			{
+				fwprintf(fout, L"						<span class=\"Personal_FullName\">%ls - %ls</span>\n", sv->Ten, sv->MSSV);
+			}
+			else if (luachon.Ten == 1 && luachon.MSSV != 1)
+			{
+				fwprintf(fout, L"						<span class=\"Personal_FullName\">%ls -  No Information</span>\n", sv->Ten);
+			}
+			else if (luachon.Ten != 1 && luachon.MSSV == 1)
+			{
+				fwprintf(fout, L"						<span class=\"Personal_FullName\">No Information -  %ls</span>\n", sv->MSSV);
+			}
+			else
+			{
+				fwprintf(fout, L"						<span class=\"Personal_FullName\">No Information -  No Information </span>\n");
+			}
+			 
 		}
 		else if ((pwc = wcsstr(b, mau2)))
 		{
-			fwprintf(fout, L"						<div class=\"Personal_Department\">KHOA  %ls</div>\n", sv->Khoa);
-			wprintf(L"						<div class=\"Personal_Department\">KHOA  %ls</div>\n", sv->Khoa);
+			if (luachon.Khoa == 1)
+			{
+				fwprintf(fout, L"						<div class=\"Personal_Department\">KHOA  %ls</div>\n", sv->Khoa);
+			}
+			else
+			{
+				fwprintf(fout, L"						<div class=\"Personal_Department\">KHOA  No Information</div>\n");
+			}
+			 
 		}
 		else if ((pwc = wcsstr(b, mau3)))
 		{
-			fwprintf(fout, L"						Email: %ls\n", sv->Email);
-			wprintf(L"						<div class=\"Personal_Phone\">EMAIL: %ls\n", sv->Email);
-		 
+			
+				if (luachon.Email == 1)
+				{
+					fwprintf(fout, L"						Email: %ls\n", sv->Email);
+				}
+				else
+				{
+					fwprintf(fout, L"						Email: No Information\n");
+				}
+			 
 		}
 		else if ((pwc = wcsstr(b, mau4)))
 		{
-			fwprintf(fout, L"						<img src=\"Images/%ls\" class=\"Personal_Hinhcanhan\" />\n", sv->Hinhanh);
-			wprintf(L"						<img src=\"Images/%ls\" class=\"Personal_Hinhcanhan\" />\n", sv->Hinhanh);
+			if (luachon.Hinhanh == 1)
+			{
+				fwprintf(fout, L"						<img src=\"Images/%ls\" class=\"Personal_Hinhcanhan\" />\n", sv->Hinhanh);
+			}
+			else
+			{
+				fwprintf(fout, L"						<img src=\"Images/null.jpg\" class=\"Personal_Hinhcanhan\" />\n");
+			}
 		}
 		else if ((pwc = wcsstr(b, mau5)))
 		{
-			fwprintf(fout, L"                              <li>Họ và tên: %ls </li>\n", sv->Ten);
-			wprintf(L"                              <li>Họ và tên: %ls </li>\n", sv->Ten);
+			if (luachon.Ten == 1)
+			{
+				fwprintf(fout, L"                              <li>Họ và tên: %ls </li>\n", sv->Ten);
+			}
+			else
+			{
+				fwprintf(fout, L"                              <li>Họ và tên: No Information </li>\n");
+			}
 		}
 		else if ((pwc = wcsstr(b, mau6)))
 		{
-			fwprintf(fout, L"								 <li>MSSV: %ls </li>\n", sv->MSSV);
-			wprintf(L"								 <li>MSSV: %ls </li>\n", sv->MSSV);
+			if (luachon.MSSV == 1)
+			{
+				fwprintf(fout, L"								 <li>MSSV: %ls </li>\n", sv->MSSV);
+			}
+			else
+			{
+				fwprintf(fout, L"								 <li>MSSV: No Information </li>\n");
+			}
 		}
 		else if ((pwc = wcsstr(b, mau7)))
 		{
-			fwprintf(fout, L"								 <li>Sinh viên khoa: %ls </li>\n", sv->Khoa);
-			wprintf(L"								 <li>Sinh viên khoa: %ls </li>\n", sv->Khoa);
+			if (luachon.Khoa == 1)
+			{
+				fwprintf(fout, L"								 <li>Sinh viên khoa: %ls </li>\n", sv->Khoa);
+			}
+			else
+			{
+				fwprintf(fout, L"								 <li>Sinh viên khoa: No Information </li>\n");
+			}
 		}
 		else if ((pwc = wcsstr(b, mau8)))
 		{
-			fwprintf(fout, L"								 <li>Ngày sinh: %ls </li>\n", sv->Day);
-			wprintf(L"								 <li>Ngày sinh: %ls </li>\n", sv->Day);
+			if (luachon.Day == 1)
+			{
+				fwprintf(fout, L"								 <li>Ngày sinh: %ls </li>\n", sv->Day);
+			}
+			else
+			{
+				fwprintf(fout, L"								 <li>Ngày sinh: No Information </li>\n");
+			}
 		}
 		else if ((pwc = wcsstr(b, mau9)))
 		{
-			fwprintf(fout, L"								 <li>Email: %ls </li>\n", sv->Email);
-			wprintf(L"								 <li>Email: %ls </li>\n", sv->Email);
+			if (luachon.Email == 1)
+			{
+				fwprintf(fout, L"								 <li>Email: %ls </li>\n", sv->Email);
+			}
+			else
+			{
+				fwprintf(fout, L"								 <li>Email: No Information </li>\n");
+			}
 		}
 		else if ((pwc = wcsstr(b, mau10))|| (pwc = wcsstr(b, mau11)))
 		{
-			if (flag)
+			if (flag == 1)
 			{
-				for (int i = 0; i < sv->soluong; i++)
-
+				if (luachon.Sothich == 1)
 				{
-					fwprintf(fout, L"                              <li>%ls</li>\n", sv->Sothich[i]);
-					wprintf(L"                              <li>%ls</li>\n", sv->Sothich[i]);
+					for (int i = 0; i < sv->soluong; i++)
+
+					{
+						fwprintf(fout, L"                              <li>%ls</li>\n", sv->Sothich[i]);
+						 
+					}
+				}
+				else
+				{
+					fwprintf(fout, L"                              <li>No Information</li>\n");
 				}
 			}
-			flag = false;
+			flag = 2;
 		}
 		else if ((pwc = wcsstr(b, mau12)))
 		{
-			fwprintf(fout, L"                            %ls.\n", sv->Motabanthan);
-			 wprintf( L"                            %ls.\n", sv->Motabanthan);
+			if (luachon.Sothich == 1)
+			{
+				fwprintf(fout, L"                            %ls.\n", sv->Motabanthan);
+			}
+			else
+			{ 
+				fwprintf(fout, L"                            No Information.\n");
+			}
+			  
 		}
 		else
 		{
 			fwprintf(fout, L"%ls", b);
-			wprintf(L"%ls", b);
 		}
 	}
 	fclose(fout);
@@ -253,11 +408,12 @@ void inrahtml(wchar_t a[])
 
 void main()
 {
-	wchar_t * name = L"test2.csv";
+ 
 	int  i;
 	FILE* fcsv = _wfopen(L"test2.csv", L"rt, ccs=UTF-8");
 	wchar_t **a = TaoMang(fcsv, n);
 	fclose(fcsv);
+	printf("Nhan 1 de in, 2 de khong in: \n ");
 	for (i = 0; i <= n; i++)
 	{
 		inrahtml(a[i]);
